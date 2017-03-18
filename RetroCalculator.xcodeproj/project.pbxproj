@@ -15,6 +15,7 @@
 		4442124F1E7D12FA005A3A1B /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442124E1E7D12FA005A3A1B /* RetroCalculatorTests.swift */; };
 		4442125A1E7D12FA005A3A1B /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444212591E7D12FA005A3A1B /* RetroCalculatorUITests.swift */; };
 		444212681E7D21C7005A3A1B /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 444212671E7D21C7005A3A1B /* Minecrafter.Reg.ttf */; };
+		4442126A1E7D22E9005A3A1B /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 444212691E7D22E9005A3A1B /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		444212591E7D12FA005A3A1B /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		4442125B1E7D12FA005A3A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		444212671E7D21C7005A3A1B /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		444212691E7D22E9005A3A1B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		444212381E7D12F9005A3A1B /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				444212691E7D22E9005A3A1B /* btn.wav */,
 				444212671E7D21C7005A3A1B /* Minecrafter.Reg.ttf */,
 				444212391E7D12F9005A3A1B /* AppDelegate.swift */,
 				4442123B1E7D12F9005A3A1B /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4442126A1E7D22E9005A3A1B /* btn.wav in Resources */,
 				444212441E7D12F9005A3A1B /* LaunchScreen.storyboard in Resources */,
 				444212411E7D12F9005A3A1B /* Assets.xcassets in Resources */,
 				4442123F1E7D12F9005A3A1B /* Main.storyboard in Resources */,
