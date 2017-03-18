@@ -86,6 +86,23 @@ class ViewController: UIViewController {
         processOperation(operation: currentOperation)
     }
     
+    @IBAction func onClearPressed(sender: AnyObject) {
+        
+        //play sound
+        playSound()
+        
+        //The screen is cleared so go back to the empty state
+        leftValStr = ""
+        rightValStr = ""
+        runningNumber = ""
+        
+        // empty the operation
+        currentOperation = Operation.Empty
+        
+        outputLbl.text = "0"
+        
+    }
+    
     func playSound() {
         //just in case someone is pressing the sound really fast to cancel it really fast
         if btnSound.isPlaying {
@@ -100,7 +117,7 @@ class ViewController: UIViewController {
         //add a sound by calling function playSound()
         playSound()
         
-        // to ensure that the current operation is not pressed
+        // to ensure that the current operation is not pressed twice
         if currentOperation != Operation.Empty {
             
             //To ensure a user selected an operator, but then selected another operator without first entering a number
@@ -124,6 +141,7 @@ class ViewController: UIViewController {
             }
             
             currentOperation = operation
+            
         } else {
             //This is the first time an operator has been pressed
             leftValStr = runningNumber
